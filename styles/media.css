@@ -1,3 +1,43 @@
+@media screen and (min-width:769px) and (max-width:992px) {
+    nav {
+        width: 90%;
+        gap: 2rem;
+    }
+    nav .btn-primary {
+        padding: 0.5rem 1rem;
+    }
+
+    /* banner start */
+    .banner {
+        width: 90%;
+        gap: 2rem;
+    }
+    .banner-txt-box h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    .banner .banner-img-box img {
+        width: 100%;
+        max-height: 400px;
+      }
+    /* banner end */
+
+    /* players section start */
+    .players {
+        width: 90%;
+    }
+    .players-box {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    /* players section end */
+
+    /* <!--  Highlights section start --> */
+    .Highlights {
+        width: 90%;
+    }
+    /* <!--  Highlights section end --> */
+    
+}
 @media screen and (max-width: 768px) {
   /* header start */
   /* nav start */
@@ -36,7 +76,7 @@
   .players-box {
     grid-template-columns: 1fr;
   }
-
+  /* player section end */
   /* <!--  Highlights section start --> */
   .Highlights {
     width: 90%;
