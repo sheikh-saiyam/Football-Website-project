@@ -1,72 +1,108 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 /* shared style */
 .btn-primary {
-    background-color: #E02C6D;
-    border: none;
-    padding: 0.5rem 2rem;
-    display: flex;
-    align-items: center;
-    color: #fff;
-    font-size: 1rem;
+  background-color: #e02c6d;
+  border: none;
+  padding: 0.5rem 2rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1rem;
 }
 .btn-primary img {
-    width: 2rem;
+  width: 2rem;
 }
 /* header start */
 header {
-    background-color: #2D25A0;
+  background-color: #2d25a0;
 }
 
 /* nav start */
 nav {
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 nav .ham-burger {
-    display: none;
+  display: none;
 }
 nav ul {
-    display: flex;
-    gap: 2.5rem;
+  display: flex;
+  gap: 2.5rem;
 }
 nav ul li {
-    list-style: none;
-    color: #fff;
-    font-size: 1rem;
+  list-style: none;
+  color: #fff;
+  font-size: 1rem;
 }
 /* nav end */
 
 /* banner start */
 .banner {
-    width: 80%;
-    margin: 0 auto;
-    padding: 3.5rem 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 3.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .banner-txt-box {
-    max-width: 460px;
-} 
+  max-width: 460px;
+}
 .banner-txt-box h1 {
-    color: #fff;
-    font-size: 4vw;
-    font-weight: bold;
-    line-height:5vw ;
+  color: #fff;
+  font-size: 4vw;
+  font-weight: bold;
+  line-height: 5vw;
 }
 .banner .banner-img-box img {
-   width: 100%;
-   max-height: 500px;
+  width: 100%;
+  max-height: 500px;
 }
 /* banner end */
 /* header end */
+
+/* player section start */
+.players {
+  width: 80%;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+.players h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+.players-box {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.players-card {
+  padding: 1rem;
+  padding-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+}
+.players-card h2 {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+.players-card p {
+  color: #828282;
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.players-card img {
+  width: 100%;
+}
+/* player section end */
