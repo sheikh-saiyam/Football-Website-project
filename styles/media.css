@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   /* header start */
   /* nav start */
   nav {
@@ -35,5 +35,16 @@
   }
   .players-box {
     grid-template-columns: 1fr;
+  }
+
+  /* <!--  Highlights section start --> */
+  .Highlights {
+    width: 90%;
+    flex-direction: column;
+    align-items: normal;
+    gap: 2rem;
+  }
+  .Highlight-txt-box h1 {
+    font-size: 2.5rem;
   }
 }
