@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* shared style */
+.btn-primary {
+    background-color: #E02C6D;
+    border: none;
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1rem;
+}
+.btn-primary img {
+    width: 2rem;
+}
+/* header start */
+header {
+    background-color: #2D25A0;
+}
+
+/* nav start */
+nav {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .ham-burger {
+    display: none;
+}
+nav ul {
+    display: flex;
+    gap: 2.5rem;
+}
+nav ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 1rem;
+}
+/* nav end */
+
+/* banner start */
+.banner {
+    width: 80%;
+    margin: 0 auto;
+    padding: 3.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-txt-box {
+    max-width: 460px;
+} 
+.banner-txt-box h1 {
+    color: #fff;
+    font-size: 4vw;
+    font-weight: bold;
+    line-height:5vw ;
+}
+.banner .banner-img-box img {
+   width: 100%;
+   max-height: 500px;
+}
+/* banner end */
+/* header end */
